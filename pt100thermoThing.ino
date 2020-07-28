@@ -27,8 +27,8 @@ const char wifiInitialApPassword[] = "password";
 // -- Cable select pins for up to 4 thermometers.
 int THERMO_CS_PINS[] = {4, 25, 26, 27};
 
-                     // -- Callback method declarations.
-                     void wifiConnected();
+// -- Callback method declarations.
+void wifiConnected();
 void configSaved();
 boolean formValidator();
 
